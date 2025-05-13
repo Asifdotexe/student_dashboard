@@ -59,7 +59,7 @@ st.markdown("""
 # Load the data
 @st.cache_data
 def load_data():
-    df = pd.read_excel(r"C:\Users\sayyed\Desktop\02062025-delhi-aiims-bsc-nursing-prepatory-data-set.xlsx")
+    df = pd.read_excel(r"02062025-delhi-aiims-bsc-nursing-prepatory-data-set.xlsx")
     df = df[['date', 'subject', 'no_of_questions', 'correct', 
             'incorrect', 'unattempted', 'marks', 'total', 
             'percentage', '30_mark_scale', 'accuracy_rate',
