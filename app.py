@@ -586,3 +586,5 @@ st.sidebar.download_button(
 # Add an expandable data table
 with st.expander("View Raw Data Table"):
     st.dataframe(filtered_df.sort_values(by=['date', 'subject']), use_container_width=True)
+
+st.text("Made for Armaan Chautala 🎀")
